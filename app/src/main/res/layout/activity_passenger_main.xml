@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PassengerMainActivity"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Passenger"
+        android:id="@+id/textView13"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="15dp"
+        android:textIsSelectable="false"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Search Ride"
+        android:id="@+id/btnSRider"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textSize="18dp"
+        android:background="#110d56"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="View Accept"
+        android:id="@+id/btnaccept"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textSize="18dp"
+        android:background="#116184"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>

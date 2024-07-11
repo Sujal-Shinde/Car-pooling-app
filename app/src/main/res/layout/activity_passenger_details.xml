@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.cp.car_pooling_app.PassengerDetails"
+    android:background="#fcfeff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Passenger Details"
+        android:id="@+id/textView24"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="lblName"
+        android:id="@+id/txtPName"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true"
+        android:textSize="23dp"
+        android:textIsSelectable="false"
+        android:layout_marginTop="15dp"
+        android:textColor="#e06800" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="lblPhone"
+        android:id="@+id/txtPPhone"
+        android:layout_below="@+id/txtPName"
+        android:layout_alignParentStart="true"
+        android:textSize="21dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="lblGender"
+        android:id="@+id/txtPGender"
+        android:layout_below="@+id/txtPPhone"
+        android:layout_alignParentStart="true"
+        android:textSize="21dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="Accept"
+        android:id="@+id/btnPAccept"
+        android:layout_below="@+id/txtPGender"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:background="#4d66cc"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="Reject"
+        android:id="@+id/btnPReject"
+        android:layout_alignTop="@+id/btnPAccept"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="50dp"
+        android:background="#cc4d53"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/txtStatus"
+        android:layout_above="@+id/btnPReject"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="View On Map"
+        android:id="@+id/btnmap"
+android:layout_marginTop="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="110dp"
+        android:background="#cc4d53"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:layout_below="@+id/btnPReject"
+        />
+</RelativeLayout>

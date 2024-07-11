@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcceptOnMapActivity"
+
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Accept Rider Details"
+                android:id="@+id/textView28"
+                android:layout_centerHorizontal="true"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Name"
+                android:id="@+id/textView37"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="lblRiderName"
+                android:id="@+id/txtVriderName"
+
+                android:textSize="24dp"
+                android:layout_gravity="center_horizontal" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Phone Number"
+                android:id="@+id/textView39"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="lblPh"
+                android:id="@+id/txtVRPhone"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Source"
+                android:id="@+id/textView40"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="lblSource"
+                android:id="@+id/txtVRSource"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#131aa3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Destination"
+                android:id="@+id/textView41"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="lblDestination"
+                android:id="@+id/txtVRDestination"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#131aa3" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"> <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ride Amount"
+                android:id="@+id/textView32"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="lblAmount"
+                    android:id="@+id/txtVRCost"
+                    android:layout_marginLeft="25dp"
+                    android:layout_alignTop="@+id/textView32"
+                    android:layout_toEndOf="@+id/textView32"
+                    android:textColor="#a2122b" /></RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Date"
+                android:id="@+id/textView42"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="lblDate"
+                android:id="@+id/txtVRDate"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#550d56" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Time"
+                android:id="@+id/textView43"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="lblTime"
+                android:id="@+id/txtVRTime"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#550d56" />
+
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="Map"
+                android:id="@+id/btnridemap"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#d60606"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
